@@ -15,7 +15,7 @@ class Question:
         self.amount_of_options += 1
     def __checkCorrect(self):
         if "(Correct)" in self.options[self.amount_of_options]:
-            self.options[self.amount_of_options] = self.options[self.amount_of_options][:-10]
+            self.options[self.amount_of_options] = self.options[self.amount_of_options][:-9]
             self.correctAt = self.amount_of_options
     def set_answer(self,answer):
         self.givenAnswer = answer
