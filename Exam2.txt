@@ -1,0 +1,549 @@
+An interface used to create service catalog records; an alternative to lists and forms. Each of these focuses on a specific process or task and can be used anywhere in the ServiceNow platform. In the Service Catalog, these are presented in categories along with catalog items:
+
+
+Options are :
+
+Record Producer (Correct)
+Most recent
+Access Control Lists
+Service Portal
+Answer :Record Producer
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+
+
+ 
+What application is available to all user?
+
+
+Options are :
+
+Content Pane
+Service Catalog records (an alternative to lists and forms)
+Self-Service (Correct)
+The role sys_user_role
+Answer :Self-Service
+
+What allows the user to elevate to a higher security role when needed then return to their normal role?
+
+
+Options are :
+
+The Welcome Message
+Update Sets
+Access Control List
+Elevated Privileges (Correct)
+Answer :Elevated Privileges
+
+Contains tabs for accessing workflows that are being edited or created.
+
+
+
+
+Options are :
+
+Canvas Tabs (Correct)
+Many to Many
+Select Box
+Transition
+Answer :Canvas Tabs
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+
+
+ 
+What are the "Many-to-Many" relationship fields?
+
+
+Options are :
+
+SLA Definition, Task SLA, SLA Workflow, SLA Automation
+Relationship used to build SLA conditions
+Reference Fields. Glide List, and Document ID Fields (Correct)
+Add users to groups that have been assigned the desired roles.
+Answer :Reference Fields. Glide List, and Document ID Fields
+
+What is the name of the ServiceNow search engine?
+
+
+Options are :
+
+Bing
+Gauge
+Google
+Zing (Correct)
+Answer :Zing
+
+You can coalesce on a single field to update an existing record. If a target table records exists with the same value in the coalesce field as the staging table record, the target table record is updated using the import set record values.
+
+
+Options are :
+
+Single-field coalesce (Correct)
+Workflow
+Show Activity Stream
+Application Scoping
+Answer :Single-field coalesce
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 7
+
+
+ 
+When you extend a table, you must create a_______
+
+
+
+
+Options are :
+
+New relationship rule in Configuration > Suggested Relationships (Correct)
+Employee Self Service (ESS)
+A new role for the table
+ESS user, ITIL user and Mobile user
+Answer :New relationship rule in Configuration > Suggested Relationships
+
+Displays fields from one record in a table; user records; users can view and edit the record data.
+
+
+
+
+Options are :
+
+What is a form? (Correct)
+Conversation Pane
+Database Views
+User Criteria
+Answer :What is a form?
+
+A table that extends another table is:
+
+
+Options are :
+
+Child Class (Correct)
+Task table
+Base Class
+Operator
+Answer :Child Class
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+
+
+ 
+You will see a condition widget where you can add conditional expressions to your ACL:
+
+
+Options are :
+
+Content Frame
+SLA Condition Evaluation
+Conditional Expressions (Correct)
+Admin or ml_admin
+Answer :Conditional Expressions
+
+Who can import data?
+
+
+Options are :
+
+Delegated Admins.
+Client Scripts
+Any user logged in with the admin or import_admin can manage all aspects of Import sets (Correct)
+System Import Sets > Load Data
+Answer :Any user logged in with the admin or import_admin can manage all aspects of Import sets
+
+___ are a modular unit of variables that can be shared between catalog items.
+
+
+Options are :
+
+Variables
+Variables Sets (Correct)
+Context menus
+Client Scripts
+Answer :Variables Sets
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 9
+
+
+ 
+Use the_____________ to create reports by modify an existing report, or create a new report from scratch.
+
+
+
+
+Options are :
+
+Report_on
+Service Catalog
+Dependency Views indicate
+Report Designer (Correct)
+Answer :Report Designer
+
+How to run Data Collector Jobs?
+
+
+Options are :
+
+Searches in files that are attached to records
+Manually, LDAP, Single Sign on (SSO)
+Social IT > Feed administration > Messages
+Performance Analytics > Data Collector (Correct)
+Answer :Performance Analytics > Data Collector
+
+Provides additional optional functionality within a ServiceNow instance:
+
+
+Options are :
+
+Notifications
+Plugins (Correct)
+Connect Workspace
+Parent breadcrumbs formatter
+Answer :Plugins
+ServiceNow Certified System Administrator Practice Exam 2019 Set 3
+
+
+ 
+In SLA, what attribute controls what is calculated as hours in a work day, # of work week days?
+
+
+Options are :
+
+Schedule (Correct)
+dictionary attributes
+time_zone_field
+Transform Map
+Answer :Schedule
+
+How can you merge update sets?
+
+
+Options are :
+
+System Update Sets > Merge Update Sets (Correct)
+Data Policy
+System Security > Access Control (ACL)
+System Policy > Events > Registry
+Answer :System Update Sets > Merge Update Sets
+
+Provides the working surface for creating new workflows or editing existing ones:
+
+
+Options are :
+
+Canvas (Correct)
+Stages
+Reports
+Checkbox
+Answer :Canvas
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+
+ 
+How can you limit who wants to view an article?
+
+
+Options are :
+
+Standard, Most Active, Most Recent, Most Active Record, Most Recent Record
+System Update Sets > Merge Update Sets
+User Criteria; Specify User Roles (Correct)
+System Diagnostics > Stats > Stats
+Answer :User Criteria; Specify User Roles
+
+Table Name: Configuration Item
+
+
+Options are :
+
+sys_update_xml
+sc_req_item
+cmdb_ci or cmdb (Correct)
+cmn_location
+Answer :cmdb_ci or cmdb
+
+An interface for building and enabling rich process automation capabilities known as flows.
+
+
+Options are :
+
+Field Values
+Flow Designer (Correct)
+Formatters
+ServiceNow Studio
+Answer :Flow Designer
+ServiceNow Certified System Administrator Practice Exam 2019 Set 5
+
+
+ 
+_____indicate the status of configuration items, and allow access to the CI's related alerts, incidents, problems, changes and business services.
+
+
+Options are :
+
+SLA
+The imported file label
+Dependency Views (Correct)
+The Content Frame
+Answer :Dependency Views
+
+An example of an activity that initiates the flow?
+
+
+Options are :
+
+Scripting
+report_On
+Value
+Trigger (Correct)
+Answer :Trigger
+
+Users are stored in this table:
+
+
+Options are :
+
+imp_user
+cmdb_ci
+sys_user (Correct)
+sys_update_version
+Answer :sys_user
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 11
+
+
+ 
+The Mapping Assist utility provides a visually intuitive environment for specifying mapping between import set fields and Target table fields.
+
+
+Options are :
+
+UC- Underpinning Contract
+Automatic Mapping Utility
+Mapping Assist Utility (Correct)
+Import set table
+Answer :Mapping Assist Utility
+
+What enables you to define the conditions under which the running SLA will be completed and a new SLA will be attached.
+
+
+Options are :
+
+Save as report source
+Task
+Insert
+Reset (Correct)
+Answer :Reset
+
+Define a single implementation of the ServiceNow platform:
+
+
+Options are :
+
+Base Table
+Text Value
+Instance (Correct)
+Task Table
+Answer :Instance
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+
+ 
+Tables that exist in the base system are called?
+
+
+Options are :
+
+Base Tables (Correct)
+Variables
+Task Tables
+Default Tables
+Answer :Base Tables
+
+How do you apply a UI policy to all views?
+
+
+Options are :
+
+Right click > Personalize > Dictionary
+Set Global to True (Correct)
+Business Rule List
+Search Knowledge
+Answer :Set Global to True
+
+Is a series of tables and fields that contain all of the configuration items controlled by your company as well as their attributes and relationships.
+
+
+Options are :
+
+Additional Comments (Customer Visible)
+Knowledge Articles
+Conditions
+Configuration Management Database (Correct)
+Answer :Configuration Management Database
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+
+
+ 
+What is configured to run when a record is displayed, inserted, updated, deleted, or when a table is queried?
+
+
+Options are :
+
+Update Sets
+Notifications
+Private Scope
+Business Rule (Correct)
+Answer :Business Rule
+
+In workflow, what is the workflow timeline?
+
+
+Options are :
+
+An automation block such as approvals, conditions, notifications, tasks, timers and utilities
+Defines unique key for record. If record found, import will update the record. If not found, import will create a new record.
+Shows the progress of a workflow. It provides a complete time-based display of activities associated with workflow context. (Correct)
+Waiting for Approval, Approved, Pending, Fulfilled, Completed
+Answer :Shows the progress of a workflow. It provides a complete time-based display of activities associated with workflow context.
+
+What enables admins to set mandatory and read only states for fields and can be used to enforce data consistently across applications?
+
+
+Options are :
+
+System Definition > Dictionary
+Data Policy (Correct)
+System Logs
+System Import Sets > Create Transform Map
+Answer :Data Policy
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+
+
+ 
+What defines conditions that are evaluated against users to determine which users can access Service Catalog items?
+
+
+Options are :
+
+Tables and forms
+User Criteria (Correct)
+Palette Tabs
+mysearchterm%
+Answer :User Criteria
+
+What is used to measure and evaluate the effectiveness of IT service management processes?
+
+
+
+
+Options are :
+
+canRead
+cantRead
+Metric (Correct)
+UC
+Answer :Metric
+
+What is a set of field maps that define the relationships between fields in an import set table and fields on a target table?
+
+
+Options are :
+
+Breadcrumbs
+Transform Map (Correct)
+Workflow
+Duration Type
+Answer :Transform Map
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+
+ 
+What runs when a form is loaded?
+
+
+Options are :
+
+Text Value
+Child Class
+Execute
+OnLoad() (Correct)
+Answer :OnLoad()
+
+Parent class:
+
+
+Options are :
+
+Variables are presented by the
+The table it extends to is the (Correct)
+Knowledge articles within a________________________ are grouped by category.
+Tables can extend
+Answer :The table it extends to is the
+
+What defines how departments work together to meet the service level requirements documented in an SLA?
+
+
+Options are :
+
+Service Level Agreement (SLA)
+Metrics
+Underpinning Contract (UC)
+Operational Level Agreement (OLA) (Correct)
+Answer :Operational Level Agreement (OLA)
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 6
+
+
+ 
+What are Boolean Operators?
+
+
+Options are :
+
+A record stored in the User Table
+Feature release, patch release, hotfix
+One set of table fields
+Refined searches with operators such as AND and OR (Correct)
+Answer :Refined searches with operators such as AND and OR
+
+Which one of the following statements is correct when referring to UI Actions?
+
+
+Options are :
+
+UI Actions cannot use scripts or be scripted.
+UI Actions are only executed on the server.
+Conditions can be specified to determine when a UI Action appears (Correct)
+UI Actions on the Task Table are not available to its extended tables.
+Answer :Conditions can be specified to determine when a UI Action appears
+
+What is the name of the database ServiceNow is built on?
+
+
+Options are :
+
+Seqel PRO
+Teradata
+OrientDB
+MySQL (Correct)
+Answer :MySQL
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+
+
+ 
+Graphically display an infrastructure view for a configuration item and the business services that it is part of and that it supports.
+
+
+Options are :
+
+Merge Update Sets
+Dependency Views (Correct)
+Activity Section
+User Interface Actions
+Answer :Dependency Views
+
+What are the stages for a requested item?
+
+
+Options are :
+
+Early access by invite, Opt-in or auto upgrade scheduled based on dates, Opt-in, on-demand, or auto-upgrade
+Waiting for approval, approved, pending, fulfillment, completed (Correct)
+It would import empty fields from the source table to the target table.
+A list of all existing tables with columns and column attributes
+Answer :Waiting for approval, approved, pending, fulfillment, completed
