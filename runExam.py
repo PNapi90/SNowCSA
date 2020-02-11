@@ -127,10 +127,12 @@ print("Which exam would you like to take?")
 for i,f in enumerate(files):
     print(i,"->",f)
 
-number = int(input("exam # -> "))
+number = -1
 
-if number >= len(files) or number < 0:
-    print(number,"not in valid range!")
+while number >= len(files) or number < 0:
+    number = int(input("exam # -> "))
+    if number >= len(files) or number < 0:
+        print(number,"not in valid range!")
 
 else:
     print("you choose",files[number])
