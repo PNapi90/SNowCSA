@@ -1,0 +1,15 @@
+# Servicenow CSA prep
+
+- Quizlet: 
+    . https://quizlet.com/tjkrajniak
+    . https://quizlet.com/jp/408610284/servicenow-system-administrator-review-flash-cards/
+    . uvm.
+
+- Classmaker (oder ähnlich):
+    . https://www.classmarker.com/online-test/start/?quiz=e7x5d1f511c8289d
+    . https://www.classmarker.com/online-test/start/?quiz=yb752a207d482ecf
+    . https://www.proprofs.com/quiz-school/story.php?title=mjiymte5oqa80o
+
+- Udemy
+    . https://www.udemy.com/course/the-complete-servicenow-system-administrator-course/
+    . https://www.udemy.com/course/servicenow-201-development/

@@ -2,13 +2,14 @@
 
 
 class Question:
-    def __init__(self,Q):
+    def __init__(self,Q,pos):
         self.question = Q.rstrip()
         self.options = []
         self.amount_of_options = 0
         self.correctAt = -1
         self.givenAnswer = -1
         self.correct = False
+        self.pos = pos
     def add_option(self,option):
         self.options.append(option.rstrip())
         self.__checkCorrect()
@@ -23,20 +24,21 @@ class Question:
     def checkCorrect(self):
         return self.correct
 
-    def printQuestion(self,pos):
+    def printQuestion(self):
         print("\n--------------------")
-        print("Question #",pos+1)
+        print("Question #",self.pos+1)
         print("\n",self.question)
         print("\nPossible Answers:")
         for i,a in enumerate(self.options):
             print(i+1,"->",a)
+    def printWrong(self):
+        self.printQuestion()
+        print("\n------------")
+        print("Answer:",self.givenAnswer+1,"\ncorrect:",self.correctAt+1)
+        print("------------")
 
-
-
-
-def runExam(file):
+def runExam(file,QuestionArray):
     points = 0
-    QuestionArray = []
     newQuestion = False
     finished = False
     oldLine = ""
@@ -56,12 +58,17 @@ def runExam(file):
         if newQuestion:
             #add question
             created = True
-            QuestionArray.append(Question(oldLine))
+            QuestionArray.append(Question(oldLine,pos))
         if finished:
-            QuestionArray[pos].printQuestion(pos)
+            QuestionArray[pos].printQuestion()
             
             #input your answer
-            posAnswer = int(input("Answer: "))-1
+            posAnswer = -1
+            while posAnswer > 3 or posAnswer < 0:
+                posAnswer = int(input("Answer: "))-1
+                if posAnswer > 3 or posAnswer < 0:
+                    print("Answer",posAnswer+1,"not in valid range!\n")
+            
             QuestionArray[pos].set_answer(posAnswer)
 
             if QuestionArray[pos].checkCorrect():
@@ -85,6 +92,22 @@ def runExam(file):
     return points,pos
 
 
+def showWrongs(QuestionArray):
+    for i,Q in enumerate(QuestionArray):
+        if not(Q.checkCorrect()):
+            print("")
+            Q.printWrong()
+            input("Press any key to continue...")
+
+
+
+def printScore(points,total):
+    print("\n=================================")
+    percentage = round(points/total*100,2)
+    print("Final result:",points,"/",total,"->",percentage,"%")
+    passed = "Passed" if percentage >= 70 else "Failed"
+    print("You",passed)
+    print("=================================")
 
 
 """
@@ -114,11 +137,11 @@ else:
 
 fileName = files[number]
 
+#Out of scope of runExam for later access to wrong answers
+QuestionArray = []
+
 with open(fileName,"r") as file:
-    points,total = runExam(file)
-    print("\n=================================")
-    percentage = round(points/total*100,2)
-    print("Final result:",points,"/",total,"->",percentage,"%")
-    passed = "Passed" if percentage >= 70 else "Failed"
-    print("You",passed)
-    print("=================================")
+    points,total = runExam(file,QuestionArray)
+    printScore(points,total)
+    showWrongs(QuestionArray)
+    printScore(points,total)
