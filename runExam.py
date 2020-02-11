@@ -134,8 +134,7 @@ while number >= len(files) or number < 0:
     if number >= len(files) or number < 0:
         print(number,"not in valid range!")
 
-else:
-    print("you choose",files[number])
+print("you choose",files[number])
 
 fileName = files[number]
 
