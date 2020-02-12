@@ -1,0 +1,444 @@
+What does SAAS stands for
+
+Options are :
+
+System And Applicable Software
+System as a service
+Software as a service (Correct)
+Answer :Software as a service
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 1
+
+What are the main components of the User Interface in ServiceNow (UI16)
+
+Options are :
+
+Banner (Correct)
+Content area (Correct)
+Left Navigation Pane (Correct)
+Right Navigation Pane
+List of incidents
+News Feed
+Answer :Banner Content area Left Navigation Pane
+
+Incident extends which table?
+
+Options are :
+
+Task (Correct)
+Problem
+Change Request
+RITM
+Answer :Task
+
+Which among the following is true for UI actions
+
+Options are :
+
+Based on the condition, it can be decided when to make it visible (Correct)
+All the UI actions of task table are not extended by the incident table
+They run only on server side
+Answer :Based on the condition, it can be decided when to make it visible
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 5
+
+What table is used to track changes in an update Set
+
+Options are :
+
+update_set
+sys_update_xml (Correct)
+incident
+Answer :sys_update_xml
+
+Insert UI Action on the form creates a new record and redirects us to previous viewed page
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+
+What does 'Coalesce' field mean?
+
+Options are :
+
+Field/s will bind with target table
+Field/s will be set a unique key (Correct)
+Field/s will be set a reference key
+Answer :Field/s will be set a unique key
+ServiceNow Certified System Administrator Practice Exam 2019 Set 1
+
+Searches are available in
+
+Options are :
+
+Navigation Filter (Correct)
+Forms
+Knowledge Base (Correct)
+Lists (Correct)
+Answer :Navigation Filter Knowledge Base Lists
+
+Which application is visible to all the users
+
+Options are :
+
+Incident
+Problem
+Self-Service (Correct)
+Clone
+Answer :Self-Service
+
+How to make a fields madatory at data base level, before updating or inserting?
+
+Options are :
+
+UI Policy
+Client Scripts
+Data Policy (Correct)
+Answer :Data Policy
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 11
+
+LDAP records can be updated by ServiceNow
+
+Options are :
+
+TRUE
+FALSE (Correct)
+Answer :FALSE
+
+Types of SLA (SLA, OLA & UC) are defined in which field?
+
+Options are :
+
+Duration
+Type Field (Correct)
+Condition Field
+Retroactive Start
+Answer :Type Field
+
+onCellEdit client script is executed when
+
+Options are :
+
+A particular field is modified on Form
+Any field is modified
+A particular field is modified on List (Correct)
+Answer :A particular field is modified on List
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 8
+
+Which one of the following statements describes the purpose of an update set
+
+Options are :
+
+Load incidents data from one instance to other instance
+Move customizations from Production to Development
+Move a series of changes from Non-production instance to production instance (Correct)
+Answer :Move a series of changes from Non-production instance to production instance
+
+If a workflow is not published, it wil be captured in update set
+
+Options are :
+
+FALSE (Correct)
+TRUE
+Answer :FALSE
+
+We can draw multiple transition from a single activity in workflow
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+End Users can personalize the list layouts for themselves
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+
+Multiple Choice, Single Text, and select Box are what type of elements in ServiceNow?
+
+Options are :
+
+Related Lists
+Order Guides
+Request Types
+Variable Types (Correct)
+Answer :Variable Types
+
+When is a workflow complete?
+
+Options are :
+
+When the workflow runs out of activities.
+When the workflow reached to Delivery stage.
+When the workflow reached to End Activity (Correct)
+When the workflow reached to Complete stage.
+Answer :When the workflow reached to End Activity
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+
+Which of the components are visible on Workflow welcome screen
+
+Options are :
+
+New Workflow Button (Correct)
+Pallete Tabs (Correct)
+Catalog form
+List of published workflows (Correct)
+Answer :New Workflow Button Pallete Tabs List of published workflows
+
+How does ServiceNow decide which application should be visible when a user login to ServiceNow?
+
+Options are :
+
+UI Policies
+Everybody can see all the applications
+Defined on the basis of roles assigned to the user (Correct)
+Defined through Managers permission
+Answer :Defined on the basis of roles assigned to the user
+
+User passwords are are also brought to the ServiceNow sytem with LDAP connection
+
+Options are :
+
+TRUE
+FALSE (Correct)
+Answer :FALSE
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+Which of the following is not a field
+
+Options are :
+
+Suggestion
+Script
+Duration
+Split (Correct)
+Answer :Split
+
+Context Menus, List Buttons, Form buttons are
+
+Options are :
+
+Buttons
+Business rules
+UI Actions (Correct)
+UI Pages
+Answer :UI Actions
+
+To see the relationship between tables in a graphical view, what is used
+
+Options are :
+
+Tables Map
+Schema Map (Correct)
+Tables and Columns
+Business Service Map
+Answer :Schema Map
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 9
+
+User records are stored in which table
+
+Options are :
+
+users
+profiles
+sys_users
+sys_user (Correct)
+Answer :sys_user
+
+When you click on create an incident, reset a password, and report an outage, where does it take you?
+
+Options are :
+
+Catalog policy
+Catalog property
+Record Producers (Correct)
+Order Guides
+Answer :Record Producers
+
+Which of the following is an example of cutom table
+
+Options are :
+
+custom
+project
+sys_scripts
+u_incident (Correct)
+Answer :u_incident
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+ACL is a _ security
+
+Options are :
+
+Physical
+Security
+Mental
+Contextual (Correct)
+Answer :Contextual
+
+When you have subject filled on email notification as well as on the notification template, which one will appear on the sent email
+
+Options are :
+
+Subject from Template
+Both the subjects are concatenated
+Blank
+Subject from Email Notification (Correct)
+Answer :Subject from Email Notification
+
+Variable Sets can be used in
+
+Options are :
+
+Incidents
+Catalog Items (Correct)
+Record Producer (Correct)
+Order Guides (Correct)
+Answer :Catalog Items Record Producer Order Guides
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+Which of the following are captured in update set
+
+Options are :
+
+Changes to incident record
+Changes to Form layout (Correct)
+Changes in group members
+Answer :Changes to Form layout
+
+To access knowledge articles without login, the knowledge article must be
+
+Options are :
+
+Set to Private
+Set to retire
+Set to review
+Set to public (Correct)
+Answer :Set to public
+
+Use _________ to categorize, flag, and locate your records
+
+Options are :
+
+Search
+Favourites
+Tags (Correct)
+Bookmarks
+Answer :Tags
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+
+What to do if we want to club two or more update sets
+
+Options are :
+
+Club Update Sets
+Unite Update Sets
+Merge Update Sets (Correct)
+Answer :Merge Update Sets
+
+Can we coalesce multiple fields?
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+
+Which instant messaging application will provide real-timetext communication between users in system
+
+Options are :
+
+Live Feed
+News
+Chat (Correct)
+Activity List
+Answer :Chat
+ServiceNow - Certified System Administrator CSA - Exam Questions
+
+What is an update set? Select all that apply?
+
+Options are :
+
+An update set writes changes from tracked tables to the customer update tables sys_update+xml. (Correct)
+Update sets are "point in time" xml snapshots of records. (Correct)
+Help moving data changes to configuration item fields to another instance.
+Allows administrators to group a series of changes into a named set and then move this set as a unit to the other instance. (Correct)
+Helps moving changes from Modified CIs.
+Answer :An update set writes changes from tracked tables to the customer update tables sys_update+xml. Update sets are "point in time" xml snapshots of records. Allows administrators to group a series of changes into a named set and then move this set as a unit to the other instance.
+
+SLA's are defined based on below conditions
+
+Options are :
+
+Start, Hold, Stop
+Begin, Hold, End
+Start, Pause, Stop (Correct)
+Begin, Pause, End
+Answer :Start, Pause, Stop
+
+Unique ID is stored in which field of table
+
+Options are :
+
+32_id
+global_number
+sys_id (Correct)
+unique_id
+Answer :sys_id
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+Agreement between departments to meet service level requirements is
+
+Options are :
+
+OLA (Correct)
+None
+UC
+SLA
+Answer :OLA
+
+How are users and groups related
+
+Options are :
+
+Many to Many (Correct)
+All to All
+One to Many
+One to One
+Answer :Many to Many
+
+Base table for storing SLA records (NOT SLA deinitions) is
+
+Options are :
+
+contract_sla
+sla
+task_sla (Correct)
+sla_definition
+Answer :task_sla
+ServiceNow Certified System Administrator Practice Exam 2019 Set 2
+
+What is the difference between save & insert on a form?
+
+Options are :
+
+Save saves the record & redirects to the list while insert creates a new record & stays on the form.
+Save saves the record & stays on the form while insert updates the record & redirects to the list.
+Insert saves the record & stays on the form while save creates a new record & redirects to the list.
+Save saves the record & stays on the form while insert creates a new record & redirects to the list. (Correct)
+Answer :Save saves the record & stays on the form while insert creates a new record & redirects to the list.
+
+Banner Color can be personalized from
+
+Options are :
+
+Developer Section
+Not Possible
+Themes section (Correct)
+Navigation Pane
+Answer :Themes section
