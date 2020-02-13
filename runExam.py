@@ -160,7 +160,7 @@ def printScore(points,total):
 """
 
 Nexam = 5
-files = ["Exam"+str(i)+".txt" for i in range(Nexam)]
+files = ["Exams/Exam"+str(i)+".txt" for i in range(Nexam)]
 
 print("\n===================================")
 print("Which exam would you like to take?")
