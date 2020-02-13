@@ -5,67 +5,59 @@
 class Question:
     def __init__(self,Q,pos):
         self.question = Q.rstrip()
-        self.multiple = "Select all that apply" in self.question
-        self.multiAnswers = []
-        self.options = []
-        self.amount_of_options = 0
-        self.correctAt = -1
-        self.givenAnswer = -1
-        self.correctAtArray = []
-        self.correct = False
+        self.answers = []
+        self.correct = []
         self.pos = pos
+        self.amount_of_options = 0
+        self.options = []
+        self.QuestionCorrectlyAnswered = False
+
     def add_option(self,option):
         self.options.append(option.rstrip())
-        if self.multiple:
-            self.__checkCorrectMulti()
-        else:
-            self.__checkCorrect()
+        self.__checkCorrect()
         self.amount_of_options += 1
     def __checkCorrect(self):
         if "(Correct)" in self.options[self.amount_of_options]:
             self.options[self.amount_of_options] = self.options[self.amount_of_options][:-9]
-            self.correctAt = self.amount_of_options
-    def __checkCorrectMulti(self):
-        if "(Correct)" in self.options[self.amount_of_options]:
-            self.options[self.amount_of_options] = self.options[self.amount_of_options][:-9]
-            self.correctAtArray.append(self.amount_of_options)
+            self.correct.append(self.amount_of_options)
+   
     def set_answer(self,answer):
-        if self.multiple:
-            self.correctAtArray.sort()
-            self.multiAnswers = answer.copy()
-            self.multiAnswers.sort()
-            same = len(self.multiAnswers) == len(self.correctAtArray)
-            if same:
-                for i in range(len(answer)):
-                    same = same and (self.multiAnswers[i] == self.correctAtArray[i])
-            self.correct = same
-        else:
-            self.givenAnswer = answer[0]
-            self.correct = self.givenAnswer == self.correctAt
+        self.correct.sort()
+        self.answers = answer.copy()
+        self.answers.sort()
+        same = len(self.answers) == len(self.correct)
+        if same:
+            for i in range(len(answer)):
+                same = same and (self.answers[i] == self.correct[i])
+        self.QuestionCorrectlyAnswered = same
     def checkCorrect(self):
-        return self.correct
+        return self.QuestionCorrectlyAnswered
+
     def printQuestion(self):
         print("\n--------------------")
         print("Question #",self.pos+1)
-        print("\n",self.question)
+
+        #check for plural or singular
+        n = len(self.correct)
+        plural_or_singular = "s" if n > 1 else ""
+        nAnswers = "("+str(n) + " correct answer"+plural_or_singular+")"
+        
+        print("\n",self.question,nAnswers)
         print("\nPossible Answers:")
         for i,a in enumerate(self.options):
             print(i+1,"->",a)
     def printWrong(self):
         self.printQuestion()
         print("\n------------")
-        if self.multiple:
-            for i,a in enumerate(self.multiAnswers):
-                self.multiAnswers[i] += 1
-            for i,a in enumerate(self.correctAtArray):
-                self.correctAtArray[i] += 1
-            print("Answers:",self.multiAnswers,"\ncorrect:",self.correctAtArray)
-                
-        else:
-            print("Answer:",self.givenAnswer+1,"\ncorrect:",self.correctAt+1)
-        print("------------")
+        for i,a in enumerate(self.answers):
+            self.answers[i] += 1
+        for i,a in enumerate(self.correct):
+            self.correct[i] += 1
+        print("Answers:",self.answers,"\ncorrect:",self.correct)
     def getRange(self):
         return self.amount_of_options
+    def getRangeCorrect(self):
+        return len(self.correct)
 
 
 def checkBadAnswer(posAnswer,maxRange):
@@ -86,10 +78,6 @@ def runExam(file,QuestionArray):
     created = False
     pos = int(0)
     for line in file:
-        # skip unwanted text
-        if "ServiceNow Certified System Administrator Practice Exam" in line:
-            continue
-
         # trigger for new question
         newQuestion = "Options are" in line
         # trigger for end of question
@@ -106,14 +94,19 @@ def runExam(file,QuestionArray):
             maxRange = QuestionArray[pos].getRange()
             check = True
             while check:
-                answerString = input("Answer: ")
+                nlen = QuestionArray[pos].getRangeCorrect()
+                answerString = ""
+                if nlen > 1:
+                    answerString = input("Answers (seperated via , ): ")
+                elif nlen == 1:
+                    answerString = input("Answer: ")
                 #allows single or multiple answers
                 tmpList = answerString.split(",") 
                 posAnswer = [int(t)-1 for t in tmpList]
                 #check if answer out of valid range
                 check,badPos = checkBadAnswer(posAnswer,maxRange)
                 if check:
-                    print("Answer",badPos,"not in valid range!\n")
+                    print("Answer",badPos+1,"not in valid range!\n")
             
             QuestionArray[pos].set_answer(posAnswer)
 
@@ -190,6 +183,7 @@ QuestionArray = []
 
 with open(fileName,"r") as file:
     points,total = runExam(file,QuestionArray)
-    printScore(points,total)
+    if points < total:
+        printScore(points,total)
     showWrongs(QuestionArray)
     printScore(points,total)
