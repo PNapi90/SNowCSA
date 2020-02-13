@@ -1,10 +1,6 @@
-python3 script to run mock exams from chercher.tech 
+### python3 script to run mock exams from chercher.tech 
 
 Prerequisites:
-    - python3
+    .. `python3`
 
-To run the programm, simply run 
-
-python3 runExam.py 
-
-in your terminal
+To run the programm, simply run `python3 runExam.py` in your terminal
