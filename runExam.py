@@ -100,13 +100,17 @@ def runExam(file,QuestionArray):
                     answerString = input("Answers (seperated via , ): ")
                 elif nlen == 1:
                     answerString = input("Answer: ")
-                #allows single or multiple answers
-                tmpList = answerString.split(",") 
-                posAnswer = [int(t)-1 for t in tmpList]
-                #check if answer out of valid range
-                check,badPos = checkBadAnswer(posAnswer,maxRange)
-                if check:
-                    print("Answer",badPos+1,"not in valid range!\n")
+                #check if input string is empty
+                if answerString.strip():
+                    #allows single or multiple answers
+                    tmpList = answerString.split(",") 
+                    posAnswer = [int(t)-1 for t in tmpList]
+                    #check if answer out of valid range
+                    check,badPos = checkBadAnswer(posAnswer,maxRange)
+                    if check:
+                        print("Answer",badPos+1,"not in valid range!\n")
+                else:
+                    print("No answer given. Please make a valid selection.\n")
             
             QuestionArray[pos].set_answer(posAnswer)
 
@@ -167,16 +171,17 @@ print("Which exam would you like to take?")
 for i,f in enumerate(files):
     print(i,"->",f)
 
-number = -1
+number = input("exam # -> ")
 
-while number >= len(files) or number < 0:
-    number = int(input("exam # -> "))
-    if number >= len(files) or number < 0:
-        print(number,"not in valid range!")
+#check for empty input string and range
+while not number.strip() or int(number) >= len(files) or int(number) < 0:
+    if not number.strip() or int(number) >= len(files) or int(number) < 0:
+        print("No valid exam selected. Please make a valid selection.")
+        number = input("exam # -> ")
 
-print("you choose",files[number])
+print("you choose",files[int(number)])
 
-fileName = files[number]
+fileName = files[int(number)]
 
 #Out of scope of runExam for later access to wrong answers
 QuestionArray = []
