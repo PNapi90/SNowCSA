@@ -1,0 +1,516 @@
+What is related to High Security Plugin in ServiceNow?
+
+
+Options are :
+
+    Impersonation feature
+    ACL
+    security_admin role for elevated privilege (Correct)
+
+Answer :security_admin role for elevated privilege
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 5
+To change the prefix of a Ticket Number, which module of ServiceNow is used?
+
+
+Options are :
+
+    UI macro
+    System properties
+    Number Maintenance (Correct)
+    Script
+
+Answer :Number Maintenance
+Which one is not part of filter conditions
+
+
+Options are :
+
+    Type Field (Correct)
+    Field
+    Value
+    Operator
+
+Answer :Type Field
+Does ESS have a role?
+
+
+Options are :
+
+    No (Correct)
+    Yes
+
+Answer :No
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 1
+Record ACL rules are processed in the following ordera) Match the object against field ACL ruleb) Match the object against table ACL rule
+
+
+Options are :
+
+    a,b
+    None
+    b,a (Correct)
+
+Answer :b,a
+When you open a service catalog and click the Order button what gets created first?
+
+
+Options are :
+
+    Workflow
+    TASK
+    REQ (Correct)
+    RITM
+
+Answer :REQ
+What is metric
+
+
+Options are :
+
+    A metric is a comparative measurement used to report the effectiveness of workflow and SLA.
+    A metric is a time measurement used to report the effectiveness of workflow and SLA.
+    A metric is a report gauge used on homepage to display real-time data.
+    A metric is used to measure and evaluate the effectiveness of IT management process. (Correct)
+
+Answer :A metric is used to measure and evaluate the effectiveness of IT management process.
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 5
+What roles are provided?
+
+
+Options are :
+
+    All of the above
+    Employee Self Service (ESS)
+    System Administrator (Correct)
+    Approvers (Correct)
+
+Answer :System Administrator Approvers
+In workflow, what are the states? Select all that apply.
+
+
+Options are :
+
+    Delivery
+    Fulfilment
+    Checked Out (Correct)
+    Unpublished (Correct)
+    Waiting for approval
+    Published (Correct)
+
+Answer :Checked Out Unpublished Published
+how can a notification be sent out?
+
+
+Options are :
+
+    Script
+    All of these (Correct)
+    Workflow
+    Business Rule
+
+Answer :All of these
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+Column is a field and a row is a record
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+Acronym: LDAP
+
+
+Options are :
+
+    Lightweight Directory Access Password
+    Lightweight Distributed Access Password
+    Lightweight Directory Access Protocol (Correct)
+    Lightweight Data Access Protocol
+
+Answer :Lightweight Directory Access Protocol
+What do Service Catalog Variables provide?
+
+
+Options are :
+
+    Definitions of available item options using questions choices.
+    Question selections then define the available option.
+    All of these. (Correct)
+    Options to tailor a catalog item to the customers' needs.
+
+Answer :All of these.
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+Fill in the blank: _____ is any content created using the ServiceNow knowledge base.
+
+
+Options are :
+
+    News
+    Blog
+    Post
+    Article (Correct)
+
+Answer :Article
+Workflows need to be checked out before they can be edited?
+
+
+Options are :
+
+    TRUE (Correct)
+    FALSE
+
+Answer :TRUE
+The CMDB application in Service now does the following; Select all that apply.
+
+
+Options are :
+
+    Facilitate quick impact analysis. (Correct)
+    Increase cost saving to the business. (Correct)
+    Contains assets and their relationships.
+    Help protect a record based on its contents. (Correct)
+    Helps locate failed changes. (Correct)
+
+Answer :Facilitate quick impact analysis. Increase cost saving to the business. Help protect a record based on its contents. Helps locate failed changes.
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+What does =[TEXT] search for
+
+
+Options are :
+
+    Starts with
+    Ends With
+    Starts with
+    Equals To (Correct)
+    Contains
+    Does not contain
+
+Answer :Equals To
+KB articles are referred in which modules:
+
+
+Options are :
+
+    Database Views
+    CI
+    Self Service
+    News (Correct)
+
+Answer :News
+What do you call an SLA when it is not met?
+
+
+Options are :
+
+    Closed
+    Achieved
+    Canceled
+    Breached (Correct)
+
+Answer :Breached
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 10
+How is the knowledge base populated? Select all that apply.
+
+
+Options are :
+
+    From the Service Catalog using a record producer. (Correct)
+    You can develop a business rule that generates a news item. (Correct)
+    The problem application plugin has a workarounds feature.
+    Importing existing articles. (Correct)
+    Using update sets. (Correct)
+    From an existing problem record. (Correct)
+
+Answer :From the Service Catalog using a record producer. You can develop a business rule that generates a news item. Importing existing articles. Using update sets. From an existing problem record.
+In which table the SLA for tasks are tracked?
+
+
+Options are :
+
+    contract_sla_list
+    task_sla (Correct)
+    Task
+    sla_task
+
+Answer :task_sla
+Where can you check which release an instance is running?
+
+
+Options are :
+
+    System Diagnostics
+    System Definition
+    Homepage
+    Stats (Correct)
+
+Answer :Stats
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 1
+What are the aspects of Service Level Agreement? Select all that apply
+
+
+Options are :
+
+    SLA Breached: The record defining the conditions for SLA to be breached.
+    Task SLA : Individual instances of the SLA associated with particular tasks. (Correct)
+    SLA automation : The business rule and scheduled job that automates the SLA. (Correct)
+    SLA Definition : The record defining the conditions to trigger the sla. (Correct)
+    SLA Workflow : The workflow driving events or actions based on the SLA. (Correct)
+
+Answer :Task SLA : Individual instances of the SLA associated with particular tasks. SLA automation : The business rule and scheduled job that automates the SLA. SLA Definition : The record defining the conditions to trigger the sla. SLA Workflow : The workflow driving events or actions based on the SLA.
+Workflows can only run against a table that extend the task table.
+
+
+Options are :
+
+    TRUE
+    FALSE (Correct)
+
+Answer :FALSE
+_____ is a group of modules which provides its related information. For example Incident provides the information related to incident process. It consist of modules like create new ticket, view incident tickets, view related tables etc
+
+
+Options are :
+
+    Change request
+    Application (Correct)
+    CMDB
+    Application Navigator
+
+Answer :Application
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+What does *[TEXT] search for
+
+
+Options are :
+
+    Contains (Correct)
+    Does not contain
+    Starts with
+    Equals To
+    Ends With
+    Starts with
+
+Answer :Contains
+What are the types of metrics? Select all that apply.
+
+
+Options are :
+
+    Field value duration (Correct)
+    HTML
+    Form value duration
+    Script calculation (Correct)
+    Business rule calculation
+
+Answer :Field value duration Script calculation
+Any table that extends from task [task] table can take advantage of task specific functionality, including? Select all that apply.
+
+
+Options are :
+
+    Events
+    Approvals (Correct)
+    Roles
+    Inactivity Monitors (Correct)
+    Service Levels (Correct)
+    Assignments (Correct)
+
+Answer :Approvals Inactivity Monitors Service Levels Assignments
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 11
+SLAs include actions that can be triggered when during the lifecycle?
+
+
+Options are :
+
+    Anytime (Correct)
+    In progress
+    Completed
+    Breached
+
+Answer :Anytime
+What does %[TEXT] search for
+
+
+Options are :
+
+    Contains
+    Starts with
+    Starts with
+    Ends With (Correct)
+    Does not contain
+    Equals To
+
+Answer :Ends With
+A variable Set is a modular unit of variables that can be shared between catalog items?
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 9
+Topic is the highest level in the hierarchy of the knowledge base.
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+_____ is a part of an application which provides a particular information. For example in Incident application, Create New _____ provides the information to create new incident ticket etc
+
+
+Options are :
+
+    Application
+    Module (Correct)
+    Application Navigator
+    CMDB
+
+Answer :Module
+A _______ is a set of users who share a common purpose
+
+
+Options are :
+
+    admins
+    Assignment Group
+    Group (Correct)
+    Role
+
+Answer :Group
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+How can you view the dictionary for a field
+
+
+Options are :
+
+    Configure Dictionary (Correct)
+    Data Dictionary
+    Schema Map
+    Configure Label
+
+Answer :Configure Dictionary
+As the cmdb administrator, you extend the hardware (cmdb_ci_hardware) table. Next, the extended table must have relationship rules created.
+
+
+Options are :
+
+    TRUE (Correct)
+    FALSE
+
+Answer :TRUE
+When an event has been fired, a notification can be sent out.
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 11
+Help the Helpdesk is a tool that will auto populate the CMDB about your Window computer?
+
+
+Options are :
+
+    TRUE (Correct)
+    FALSE
+
+Answer :TRUE
+What has conditions, scripts and roles and can limit security?
+
+
+Options are :
+
+    Business Rules
+    Scripts Include
+    Data Policy
+    ACL - Access Control List (Correct)
+
+Answer :ACL - Access Control List
+Where can you view information about system activity?
+
+
+Options are :
+
+    Stats
+    System Diagnostics
+    System logs (Correct)
+    Upgrade History
+
+Answer :System logs
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+In ServiceNow setup, how would an administrator send notification after the instance has been upgraded?
+
+
+Options are :
+
+    By writing a client script.
+    In email logs by updating the notification �system upgraded� in email logs module with the required user you want to send notification too.
+    By writing a business rule.
+    By updating the notification �system upgraded� in notification module with the required user you want to send notification to. (Correct)
+
+Answer :By updating the notification �system upgraded� in notification module with the required user you want to send notification to.
+Can we have multiple cycles for approvals in catalog item?
+
+
+Options are :
+
+    NO
+    YES (Correct)
+
+Answer :YES
+Table Name: Local Update Set
+
+
+Options are :
+
+    Sys_xml
+    Sys_update_set (Correct)
+    Sys_update
+    Sys_update_xml
+
+Answer :Sys_update_set
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+Gauge is a graphical, refreshable widget viewable as a homepage section.
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+Knowledge articles are maintained on which basis?
+
+
+Options are :
+
+    Role assigned
+    KB workflow
+    Category (Correct)
+    Task assigned
+
+Answer :Category 

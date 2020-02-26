@@ -1,0 +1,511 @@
+What is a formatter? Select one of the following:
+
+
+Options are :
+
+    A formatter allows you to configure applications on your instance.
+    A formatter allows you to populate fields automatically.
+    A formatter is the form element that is used to display information which is not a field in the record. (Correct)
+    A formatter is a set of conditions applied to table to help find a work with data.
+
+Answer :A formatter is the form element that is used to display information which is not a field in the record.
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+Like business rules ... Notifications can be created when a record is inserted or updated
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+What does the attachment functionality in a kb article do?
+
+
+Options are :
+
+    It will take you to a blank incident form
+    It displays the contents of the attachment instead of the text in the form (Correct)
+    Allow you to attach any other existing record in ServiceNow
+    Read only data that is not editable on this form
+
+Answer :It displays the contents of the attachment instead of the text in the form
+How to update an existing workflow?
+
+
+Options are :
+
+    Click edit and then update
+    Directly update the workflow
+    First checkout and then update (Correct)
+    Not Possible
+
+Answer :First checkout and then update
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 2
+What is contextual security in ServiceNow?
+
+
+Options are :
+
+    Protects a record based on its contents and table location.
+    Data is acted upon based on the position of the information in the table hierarchy.
+    Defines access control rules to any level.
+    All of the above (Correct)
+
+Answer :All of the above
+We can draw multiple transition from a single activity in workflow.
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+What are the phases of StartNow? Select all that apply.
+
+
+Options are :
+
+    Transform (Correct)
+    Test
+    Discover (Correct)
+    Operate (Correct)
+    Prepare (Correct)
+    Plan (Correct)
+
+Answer :Transform Discover Operate Prepare Plan
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+On submitting the incident form, which among the following is correct?
+
+
+Options are :
+
+    Work notes value persists as such on the form while it also gets captured in the activity logs.
+    On submitting the form, the value of impact is calculated by adding priority and urgency.
+    Work notes gets overwritten in the work notes field.
+    Work notes gets captured in the activity logs. (Correct)
+
+Answer :Work notes gets captured in the activity logs.
+What is true about deleting the tables?
+
+
+Options are :
+
+    Only user tables can be deleted. (Correct)
+    Only system tables can be deleted.
+    Both System and user tables can be deleted.
+    Only incident table can be deleted.
+
+Answer :Only user tables can be deleted.
+Which instant messaging application will provide real-time text communication between users in system?
+
+
+Options are :
+
+    Chat (Correct)
+    Activity List
+    News
+    Live Feed
+
+Answer :Chat
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 10
+Base table of CMDB
+
+
+Options are :
+
+    cmdb_ci
+    task
+    cmdb (Correct)
+
+Answer :cmdb
+What are the main tools you can use to automate servicenow?
+
+
+Options are :
+
+    System properties > css
+    Ui policy, data policies, ui actions and scripts (Correct)
+    None of the above
+    Lists, global text search, navigation filter, live feed
+
+Answer :Ui policy, data policies, ui actions and scripts
+Transform maps can only be used once.
+
+
+Options are :
+
+    TRUE
+    FALSE (Correct)
+
+Answer :FALSE
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 11
+Where would you create the order guide choices/questions (e.g., department)?
+
+
+Options are :
+
+    System properties > css
+    Go to social it > feed administration
+    None of the above
+    Go to the order guide and go to the variables section. (Correct)
+
+Answer :Go to the order guide and go to the variables section.
+To access knowledge articles without login, the knowledge article must be?
+
+
+Options are :
+
+    Set to public (Correct)
+    Set to retire
+    Set to Private
+    Set to review
+
+Answer :Set to public
+Where can you find the response time indicator?
+
+
+Options are :
+
+    In the right hand corner of forms and lists (Correct)
+    Any form that has the know icon: Ess self-service; itil users can get it through self-service and service desk; admins and knowledge managers have additional ability with other modules.
+    It's the filter views (i.e., when you run a report); the more you add the longer it gets
+    What is being secured (row or table) and the rights to it
+
+Answer :In the right hand corner of forms and lists
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 6
+What are the benefits of using groups?
+
+
+Options are :
+
+    Provide a reference for alerts and notifications.
+    Email notifications.
+    Identifies a subset of users for roles and skill assignment.
+    Permissions and Access - Simplified ability to assign permissions.
+    All of the above. (Correct)
+
+Answer :All of the above.
+Who can access to schema maps, tables and column module?
+
+
+Options are :
+
+    Administrator (Correct)
+    End User
+    Approver
+    ITIL User
+
+Answer :Administrator
+Which of the following is true while solving incidents as per ITIL framework?
+
+
+Options are :
+
+    Incident Priority is filled by the user.
+    Incident Urgency is based on Impact & Priority.
+    Incident Priority is calculated on the basis of Impact & Urgency. (Correct)
+    Incident Impact is calculated on the basis of Urgency & Priority.
+
+Answer :Incident Priority is calculated on the basis of Impact & Urgency.
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 2
+What is not a list interface element
+
+
+Options are :
+
+    Gauge (Correct)
+    fields
+    Column headings
+    Title bar
+
+Answer :Gauge
+When does the submit button appear on the form
+
+
+Options are :
+
+    None of these
+    Whenever a record is being updated
+    Whenever a new record is being made (Correct)
+    Whenever we save an existing record
+
+Answer :Whenever a new record is being made
+What features of ITIL are utilized by the ServiceNow platform? Select all that apply
+
+
+Options are :
+
+    Transition (Correct)
+    Operations (Correct)
+    Activity
+    Design (Correct)
+    Strategy (Correct)
+
+Answer :Transition Operations Design Strategy
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+What are Tags used for?
+
+
+Options are :
+
+    Flag or locate records
+    Both a & b (Correct)
+    Tags categorize records.
+    None of these
+
+Answer :Both a & b
+Technical aspects of the system such as -performance-related issues -scalability -manageability, define specific tasks that must be performed to satisfy functional requirements.
+
+
+Options are :
+
+    Business Requirements
+    Technical Requirements (Correct)
+    User Requirements
+    Market Requirements
+
+Answer :Technical Requirements
+What are the two main types of Requirements?
+
+
+Options are :
+
+    UI
+    Business
+    Functional (Correct)
+    Technical (Correct)
+    Market
+    User
+
+Answer :Functional Technical
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+_______ is used to join two tables
+
+
+Options are :
+
+    Views
+    Link Tables
+    Database Views (Correct)
+
+Answer :Database Views
+Utilize the Graphical Workflow Editor to modify or create workflow.
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+All users can manage and setup import sets.
+
+
+Options are :
+
+    TRUE
+    FALSE (Correct)
+
+Answer :FALSE
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+Base table for storing SLA records (NOT SLA definitions) is?
+
+
+Options are :
+
+    sla definition
+    contract_sla
+    sla
+    task sla (Correct)
+
+Answer :task sla
+onCellEdit client script is executed when?
+
+
+Options are :
+
+    A particular field is modified on Form
+    A particular field is modified on List (Correct)
+    Any field is modified
+
+Answer :A particular field is modified on List
+What are the OOTB ServiceNow roles? Select all that apply.
+
+
+Options are :
+
+    User
+    ESS
+    ITIL (Correct)
+    admin (Correct)
+
+Answer :ITIL admin
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 3
+A field�s __________ is a unique system term and field�s ___________ is user friendly
+
+
+Options are :
+
+    Label/name
+    Name/Value
+    Label/Value
+    Name/label (Correct)
+
+Answer :Name/label
+List personalization changes the fields that are displayed on the List Layout for
+
+
+Options are :
+
+    Only my Company
+    Only Me (Correct)
+    All Users
+    Only my Group
+
+Answer :Only Me
+What is a role?
+
+
+Options are :
+
+    A role is a record in the Role table; a role is a person that is assigned to a group or single user.
+    All of the above (Correct)
+    Roles are collections of permissions
+    A role is an organizational element. Roles are granted access to applications.
+
+Answer :All of the above
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+What is the significance of Order field on Catalog Item variables?
+
+
+Options are :
+
+    It established the display order of variables - Listed in ascending order values (Correct)
+    It provides the order in which data will be parsed
+    It displays the number to the left side of the variable
+
+Answer :It established the display order of variables - Listed in ascending order values
+To delete tables, Go to �Tables and Columns�, choose "delete" and type the word "delete".
+
+
+Options are :
+
+    FALSE
+    TRUE (Correct)
+
+Answer :TRUE
+UI action is the method to put buttons, links, and context menu items on forms and lists, making the UI more interactive, customizable, and specific to user activities.
+
+
+Options are :
+
+    TRUE (Correct)
+    FALSE
+
+Answer :TRUE
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 4
+How many steps in StartNOW Methodology?
+
+
+Options are :
+
+    6 (Correct)
+    3
+    5
+    8
+
+Answer :6
+How to make a fields mandatory at data base level, before updating or inserting?
+
+
+Options are :
+
+    Data Policy (Correct)
+    Client Scripts
+    UI Policy
+
+Answer :Data Policy
+Where would you go to start an import set?
+
+
+Options are :
+
+    System properties > Import Sets
+    System Import Sets > Import sets (Correct)
+    System Import Sets > Load Data
+    System Definition > Import sets
+
+Answer :System Import Sets > Import sets
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+Banner Color can be personalized from?
+
+
+Options are :
+
+    Navigation Pane
+    Developer Section
+    Not Possible
+    Themes section (Correct)
+
+Answer :Themes section
+What is the high security plugin in ServiceNow? Select all that apply.
+
+
+Options are :
+
+    The elevated privilege role is automatically assigned and inherited from any role.
+    Elevated privilege only exists during the current session. (Correct)
+    Accessed from System Security > High Security Settings. (Correct)
+    High security creates a security_admin elevated privilege role. (Correct)
+
+Answer :Elevated privilege only exists during the current session. Accessed from System Security > High Security Settings. High security creates a security_admin elevated privilege role.
+_IS used in Importing users and groups.
+
+
+Options are :
+
+    LDAP (Correct)
+    CMBD
+    Role
+    ITSM
+
+Answer :LDAP
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+What are the three basic elements of a work?ow?
+
+
+Options are :
+
+    None of the above
+    Approval, noti?cation and task (Correct)
+    SLA de?nition, Task SLA, SLA work?ow
+    Task, Table and Fields
+
+Answer :Approval, noti?cation and task
+Where would you go to add an order guide?
+
+
+Options are :
+
+    Go to system definition > choice list
+    Service catalog > catalog definition > order guides and click new (Correct)
+    System properties > css
+
+Answer :Service catalog > catalog definition > order guides and click new 

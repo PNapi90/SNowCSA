@@ -163,7 +163,7 @@ def printScore(points,total):
 
 """
 
-Nexam = 5
+Nexam = 12
 files = ["Exams/Exam"+str(i)+".txt" for i in range(Nexam)]
 
 print("\n===================================")

@@ -1,0 +1,458 @@
+Can a user open an Incident by email, if so what is utilized?
+
+Options are :
+
+Yes, Notification
+Yes, Inbound Action (Correct)
+Not Possible
+Answer :Yes, Inbound Action
+ServiceNow Certified System Administrator Practice Exam 2019 Set 1
+
+What role allows users to define catalog items?
+
+Options are :
+
+Catalog_admin (Correct)
+Catalog_manager
+Catalog_editor
+Catalog
+Answer :Catalog_admin
+
+My manager is going to be out of town and needs to have the supervisor approve while he/she is out of town, what would he/she utilize in ServiceNow?
+
+Options are :
+
+New temporary account for a manager.
+Manager�s credentials (username & password)
+Delegate (Correct)
+Impersonate
+Answer :Delegate
+
+What is the latest ServiceNow user interface?
+
+Options are :
+
+Jakarta
+London
+UI 16 (Correct)
+Kingston
+Answer :UI 16
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+
+Where can you view information about system activity?
+
+Options are :
+
+System logs (Correct)
+Homepages
+System Properties
+System Definition
+Answer :System logs
+
+What does !=[TEXT] search for
+
+Options are :
+
+Ends With
+Equals To
+Not Equals to (Correct)
+Contains
+Does not contain
+Starts with
+Answer :Not Equals to
+
+Which table defines what conditions trigger an SLA?
+
+Options are :
+
+sla_condition_class_list
+task_sla
+contract_sla (Correct)
+Task
+Answer :contract_sla
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+
+What are common, OOTB places where workflows are commonly seen in ServiceNow? Select all that apply.
+
+Options are :
+
+Routine Changes (Correct)
+None of the above
+Service Level Agreements (SLA) (Correct)
+Emergency Changes (Correct)
+Incident
+Answer :Routine Changes Service Level Agreements (SLA) Emergency Changes
+
+What are the release types in a family? Select all that apply.
+
+Options are :
+
+Feature (Correct)
+HotFix (Correct)
+Alpha
+Beta
+Patch (Correct)
+Answer :Feature HotFix Patch
+
+SLA, OLA and UC are configured in which module?
+
+Options are :
+
+BSM
+SLM (Correct)
+CMDB
+ACLs
+Answer :SLM
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 7
+
+Category is the highest level in the hierarchy of the knowledge base.
+
+Options are :
+
+FALSE (Correct)
+TRUE
+Answer :FALSE
+
+What does [TEXT]% search for
+
+Options are :
+
+Starts with (Correct)
+Ends With
+Contains
+Does not contain
+Equals To
+Starts with
+Answer :Starts with
+
+In SLA, what attribute controls what is calculated as hours in a work day, # of work week days?
+
+Options are :
+
+Schedule (Correct)
+Type
+Duration Type
+Duration
+Answer :Schedule
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+What is a schema map?
+
+Options are :
+
+A schema map graphically displays the configuration items that supports business services.
+schema map enables administrator to define records from a specific table as trouble sources for configuration items.
+A schema map graphically organizes the visual task boards from CMDB.
+A schema map displays the details of tables and their relationships in a visual manner, allowing administrators to view and easily access different parts of database schema. (Correct)
+Answer :A schema map displays the details of tables and their relationships in a visual manner, allowing administrators to view and easily access different parts of database schema.
+
+In service catalog application, which module is responsible for creating items?
+
+Options are :
+
+Maintain category
+Maintain dynamic categories
+Maintain items (Correct)
+Items
+Answer :Maintain items
+
+What does !*[TEXT] search for
+
+Options are :
+
+Does not contain (Correct)
+Starts with
+Ends With
+Contains
+Equals To
+Starts with
+Answer :Does not contain
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+To make a new or edited workflow available to all users, it needs to be published.
+
+Options are :
+
+TRUE (Correct)
+FALSE
+Answer :TRUE
+
+Which of the following are you allowed to make customizations to?
+
+Options are :
+
+A field
+A view
+A form
+All of the above (Correct)
+A business rule
+Answer :All of the above
+
+What is the use of Script Includes in ServiceNow?
+
+Options are :
+
+It is used as same as client script.
+The scripts that are used again & again are maintained in Script Includes so that it can be called any time in the required scripts. (Correct)
+Script Includes is not there in ServiceNow.
+None of these.
+Answer :The scripts that are used again & again are maintained in Script Includes so that it can be called any time in the required scripts.
+ServiceNow Certified System Administrator Practice Exam 2019 Set 10
+
+What is the purpose of the import set table?
+
+Options are :
+
+A set of field maps that defines the relationship between fields in an import set and fields on a table.
+The conversion of data from an import set table to another table according to the rules defined in a transform map.
+It acts as a staging area for records imported. (Correct)
+A record that defines where to get the data to import.
+Answer :It acts as a staging area for records imported.
+
+Which one of the following statement describes a characteristic of the role assignment?
+
+Options are :
+
+A role is generated to a user by the System Administrator.
+Roles can contain other roles, when you are assigned a role, you inherit all the roles within that role. (Correct)
+Each user has a role in the ServiceNow platform.
+Users can click on the Personalize role(feature to try different roles).
+Answer :Roles can contain other roles, when you are assigned a role, you inherit all the roles within that role.
+
+Events are special records the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+What are the types of number form orders?
+
+Options are :
+
+Request Number (REQ) - The request is generated and given a REQ number.
+Request Item (RITM) - Each item in the order is assigned a Requested Item number.
+Catalog Task number - For each requested item, a set of catalog tasks are created. Each task is assigned a catalog task number.
+All of these. (Correct)
+Answer :All of these.
+
+Please provide an example of when you use Access Control Record in ServiceNow.
+
+Options are :
+
+To make any field on the incident form editable for admins and ITIL users.
+To make any field on the incident form mandatory.
+To make any field on the incident form editable for admins, but read only for ITIl users. (Correct)
+To make any field on the incident form read only.
+Answer :To make any field on the incident form editable for admins, but read only for ITIl users.
+
+What is not an example of a UI action?
+
+Options are :
+
+Form buttons
+Related links
+Search (Correct)
+List buttons
+Answer :Search
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 4
+
+Gauges are created by admins or users with Gauge_Maker role.
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+
+Which of the following are workflow activities? Select all that apply.
+
+Options are :
+
+Tasks (Correct)
+Approvals (Correct)
+Email
+Timers (Correct)
+Incident
+Utilities (Correct)
+Answer :Tasks Approvals Timers Utilities
+
+Use the ______________ to create relationships between configuration items (CIs). Fill in the blank.
+
+Options are :
+
+None. custom tables can be deleted.
+CMDB Query Builder
+CI Service Manager
+CI Relationship Editor (Correct)
+CI Class Manager
+Answer :CI Relationship Editor
+ServiceNow Certified System Administrator Practice Exam 2019 Set 3
+
+What do requesters see when they go to the service catalog?
+
+Options are :
+
+Self-service catalog items (Correct)
+News
+Record
+Homepage
+Answer :Self-service catalog items
+
+Which of the components are visible on Workflow welcome screen?
+
+Options are :
+
+New Workflow Button (Correct)
+Pallete Tabs (Correct)
+List of published workflows
+Catalog Form
+Answer :New Workflow Button Pallete Tabs
+
+Personalizing a form does not enable a user to hide ____________ fields. Fill in the blanks.
+
+Options are :
+
+Readonly
+Reference
+Pre Filled
+Mandatory (Correct)
+Answer :Mandatory
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+All workflows absolutely must have a beginning and an end.
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+
+What is the relationship between tables?
+
+Options are :
+
+Show Schema Map (Correct)
+task
+CI Relationship Types
+Configure Dictionary
+Answer :Show Schema Map
+
+Business rules are real time
+
+Options are :
+
+FALSE (Correct)
+TRUE 
+Answer :TRUE
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+Which one is used to group related fields together?
+
+Options are :
+
+Form Layout
+List Layout
+View
+Sections (Correct)
+Answer :Sections
+
+How do you get to the categories on an incident and other table?
+
+Options are :
+
+In the task SLA form
+Base Class
+Go to system definition > choice list (Correct)
+Go to social it > feed administration > messages
+Answer :Go to system definition > choice list
+
+What do client request + server response =?
+
+Options are :
+
+None of the above
+Multiple trip
+Round trip (Correct)
+Single trip
+Answer :Round trip
+ServiceNow Certified System Administrator Practice Exam 2019 Set 11
+
+Plugin can be deactivated
+
+Options are :
+
+TRUE
+FALSE (Correct)
+Answer :FALSE
+
+StartNow methodology is the combination of traditional waterfall approach with SCRUM.
+
+Options are :
+
+FALSE
+TRUE (Correct)
+Answer :TRUE
+
+Expand CMDB
+
+Options are :
+
+Configuration Module Database
+Call Management Database
+Configuration Management Database (Correct)
+Answer :Configuration Management Database
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+The application navigator provides links to all applications and modules they comprise
+
+Options are :
+
+TRUE (Correct)
+FALSE
+Answer :TRUE
+
+What is the shortcut to approve a service request?
+
+Options are :
+
+Both 1 and 2 (Correct)
+By calling helpdesk
+E-mail
+My request
+Answer :Both 1 and 2
+
+What Details does a knowledge article hold?
+
+Options are :
+
+Troubleshooting tips
+All of the above (Correct)
+User Solutions
+Known errors
+User information
+Answer :All of the above
+ServiceNow Certified System Administrator Practice Exam 2019 Set 11
+
+What are the 3 ways to bring users into the ServiceNow system?
+
+Options are :
+
+Using an import set (importing users).
+Manually enter users, manually creating users.
+Through Single Sign on and LDAP.
+All of the above. (Correct)
+Answer :All of the above.
+
+What does StartNow stand for?
+
+Options are :
+
+Strategic Analysis, Research, and Training.
+Start-up and Accelerated Recruitment Team.
+Strategic Alignment and Rapid Transformation. (Correct)
+None of these.
+Answer :Strategic Alignment and Rapid Transformation.
+

@@ -1,0 +1,512 @@
+Name four common tables extended from Task:
+
+
+Options are :
+
+    Stats (also upgraded history)
+    creates Service Catalog records (an alternative to lists and forms)
+    Incident, Problem, Change, Request (Correct)
+    Published, Unpublished, Checked Out, Problem
+
+Answer :Incident, Problem, Change, Request
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+
+Where do you go to confirm a recent upgrade to a feature release has been performed?
+
+
+Options are :
+
+    System Security > Users and Groups > Roles
+    System Update Sets > Merge Update Sets
+    System Properties > Basic Configuration UI16
+    System Logs > Events (Correct)
+
+Answer :System Logs > Events
+
+Use______ to create a story with data that can be shared.
+
+
+Options are :
+
+    Formatters
+    Field Values
+    Dashboards (Correct)
+    Task Tables
+
+Answer :Dashboards
+
+What enables you to track and aggregate data over time through elements called scorecards and indicators?
+
+
+Options are :
+
+    Performance Analytics (Correct)
+    Update Sets
+    Task SLA [task_sla]
+    The workflow version
+
+Answer :Performance Analytics
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 6
+
+In Service Catalog, what is a variable?
+
+
+Options are :
+
+    A Service Catalog record
+    Provides questions to help the requester specify what item, option or service to order (Correct)
+    A checkbox
+    Defines unique key for record. If record found, import will update the record. If not found, import will create a new record.
+
+Answer :Provides questions to help the requester specify what item, option or service to order
+
+Version:
+
+
+
+Options are :
+
+    Data in SN is entered into individual ____________________
+    ____ can define knowledge categories to pre-populate the list of available categories, and knowledge contributors can select categories, an add or edit categories, if enabled, for a knowledge base.
+    The _________ is the published model of the workflow. (Correct)
+    Is a Workflow
+
+Answer :The _________ is the published model of the workflow.
+
+What are NOT CAPTURED in update sets?
+
+
+Options are :
+
+    Waiting for approval, approved, pending, fulfillment, completed
+    Searches with any Unicode characters
+    All requester actions and view or modify requests directed to the approver
+    Modified CIs, modified Data records, new data records, new users and groups, schedules, scheduled jobs, homepages (Correct)
+
+Answer :Modified CIs, modified Data records, new data records, new users and groups, schedules, scheduled jobs, homepages
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 5
+
+In workflow, what is a transition?
+
+
+Options are :
+
+    Transitions establish possible processing paths (Correct)
+    An automation blocks such as approvals, conditions, notifications, tasks, timers and utilities
+    This is the instantiation of the version executing for a given record, showing the processing path.
+    Waiting for Approval, Approved, Pending, Fulfilled, Completed
+
+Answer :Transitions establish possible processing paths
+
+What are shipped to the client (browser) and run there instead of the server?
+
+
+Options are :
+
+    CI Relationship Editor
+    Client Scripts (Correct)
+    Email Notifications
+    task SLA
+
+Answer :Client Scripts
+
+Can manage UI policies:
+
+
+Options are :
+
+    ui_policy-admin role (Correct)
+    Specialized Administrator
+    Reports Application
+    Impersonator role
+
+Answer :ui_policy-admin role
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 1
+
+Modifies a list for an individual user; does not affect the platform default:
+
+
+Options are :
+
+    Palette Tabs
+    Knowledge Approval Publish
+    Application and Modules Access
+    Personalized List Columns (Correct)
+
+Answer :Personalized List Columns
+
+A Script include and reference record that can be used to customize the transitions between different SLA states.
+
+
+Options are :
+
+    Application Scoping
+    Knowledge Instant Publish
+    Task
+    SLA Conditions and Script Include (Correct)
+
+Answer :SLA Conditions and Script Include
+
+Changes are tracked and you can customize objects on a table with the ________ attribute
+
+
+Options are :
+
+    Data Sources
+    Schema Map
+    Update_synch (Correct)
+    Reporting
+
+Answer :Update_synch
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 8
+
+What are events caused by?
+
+
+Options are :
+
+    Feature release, patch release, hotfix
+    User Actions, Scripts (Correct)
+    The Impersonation Icon
+    Graphical Workflow editor
+
+Answer :User Actions, Scripts
+
+________You to work with others on the same record indicating their state as well as what their edits are.
+
+
+
+
+Options are :
+
+    Startflow(workflowid, current, opeation, vars)
+    Customer Update [sys_update_xml
+    Tables can extend _________________
+    Real-time editing allows__________ (Correct)
+
+Answer :Real-time editing allows__________
+
+A Security rule defined to restrict the permissions of a user from viewing and interacting with data. ? Global Scope
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+
+Messaging tool that lets you work with others in real-time ? Connect Chat
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Workflow powers evens or actions based on the SLA definition and is designed to be used over and over. ? SLA Workflow
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Dashboards enable the display of multiple performance analytics, reporting, and other widgets on a single screen.
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+ServiceNow - Certified System Administrator CSA - Exam
+
+Order Guide ? Define a____ to assist customers in ordering a complete set of needed items and to help users see item relationships.
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Automatically update the location field to reflect the value entered into the caller field. Disable the attachment link of a closed record when the form is loaded so a user is unable to add or modify attachments. Display a notice at the top of the page to confirm a catalog request was submitted. ? Client Scripts can be used to______
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+Allow task records to be created and modified. ? Tasks
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 8
+
+Runs when a form is submitted ? OnSubmit()
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Used to communicate back and forth with the requester and other stakeholders directly in ServiceNow. ? Additional Comments (Customer Visible)
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Provides a graphical representation of other tables related to a specific table. ? Form Context Menu
+
+
+Options are :
+
+    False (Correct)
+    True
+
+Answer :False
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 2
+
+User Interface Terms: Where the modules and applications are listed ? Application Navigator
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+Users who cannot crate or modify articles in the Knowledge Base. ? cantContribute
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+___is a rule that enforces data consistency by setting fields as mandatory and or read-only. ? Man to Many
+
+
+Options are :
+
+    False (Correct)
+    True
+
+Answer :False
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 3
+
+Business Rules can be set to run _______________ the database action has occurred. ? Before and After
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+A table can extend another table. The extended table includes unique fields plus all of the fields and their properties from the parent table. ? Extensions
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+Table Name: Customer Update ? sys_dictionary
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 11
+
+Which contains CI data ? Configuration Item [cmbd_ci]
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Pause the workflow for a set period of time. ? Timers
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+What allows administrators to group a series of changes into a named set and then move this set as a unit to another instance? ? ServiceNow Release Cycles
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+
+Modifies a list for an individual user; does not affect the platform default. ? Personalize List Columns
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+____the status of configuration items, and allow access to the CI's related alerts, incidents, problems, changes, and business services. ? CI relations formatter
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+Feature used to work with templates ? Workflow
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 1
+
+A table that extends another table ? Task Table
+
+
+Options are :
+
+    False (Correct)
+    True
+
+Answer :False
+
+The users with this role may fulfill ITIL activities associated with the ITIL workflow, including incident and change management. ? Requester
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+User will this role will be able to initiate the setup of Agent Intelligence ? Admin or ml_admin
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+You to work with others on the same record indicating their state as well as what their edits are. ? Real-time editing allows__________
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True
+
+Protects applications by identifying and restricting access to available files and data. ? Personalize List Columns
+
+
+Options are :
+
+    False (Correct)
+    True
+
+Answer :False
+
+Form element used to display information that is not a field in the record. ? Formatters
+
+
+Options are :
+
+    True (Correct)
+    False
+
+Answer :True
+
+ServiceNow Certified System Administrator Practice Exam 2019 Set 10
+
+User Interface Terms: On a list, the actions available on right click of a column header ? Record Control
+
+
+Options are :
+
+    True
+    False (Correct)
+
+Answer :False
+
+__grant access to applications and other part of the platform and assign security rights. ? A role is a set of permissions used to
+
+
+Options are :
+
+    False
+    True (Correct)
+
+Answer :True 

@@ -1,0 +1,514 @@
+What's an example of a CI?
+
+
+Options are :
+
+Computer, Software Contract, Business Service (tangible and intangible) (Correct)
+Service Catalog records (an alternative to lists and forms)
+an automation block such as approvals, conditions, notifications, tasks, timers and utilities
+A role with special permissions during the logon session.
+Answer :Computer, Software Contract, Business Service (tangible and intangible)
+ServiceNow Certified System Administrator Practice Exam 2019 Set 8
+
+How do you know which release version of Service now you are working on?
+
+
+Options are :
+
+Go to System Diagnostics-Stats and check the build name
+Go to system Diagnostics-version and Memory stats
+Go to system Diagnostics-Version and check the build name (Correct)
+Go to system Diagnostics-Expression cache stats
+Answer :Go to system Diagnostics-Version and check the build name
+
+The Administrator wants to connect with the co-workers to have conversation on the issues raised. Which of the following option should the Administrator select?
+
+
+Options are :
+
+Toggle Help Side Bar
+User Menu
+Impersonate User
+Toggle Connect Side Bar (Correct)
+Answer :Toggle Connect Side Bar
+
+What is a Workflow primarily used for?
+
+
+Options are :
+
+To order catalog items
+To schedule reports
+To automate a sequence of activities (Correct)
+To send email notifications
+Answer :To automate a sequence of activities
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 10
+
+Which one of the following statements is true for system Administrators who are deleting tables?
+
+
+Options are :
+
+An ESS user can delete any configuration item that is referenced by the problem table, saving you time.
+Only tables beginning with �u_� can be permanently deleted. (Correct)
+Deleting an out of box system table permanently deletes it from use by all instances at a customer site.
+Deleting a table does not delete other associated elements like views and gauges. these elements must be deleted separately.
+Answer :Only tables beginning with �u_� can be permanently deleted.
+
+How do you call an SLA when it is not met?
+
+
+Options are :
+
+Passed Schedule
+Overdue
+Breached (Correct)
+Expired
+Answer :Breached
+
+Incident, Problem tables inherit which table
+
+
+Options are :
+
+Problem Table
+User Table
+Task Table (Correct)
+Incident Table
+Answer :Task Table
+ServiceNow Certified System Administrator Practice Exam 2019 Set 5
+
+
+
+What are variables in regards with Service Catalog?
+
+
+Options are :
+
+They define the items in service catalog
+None of the above
+They define the questions to ask to end user while ordering catalog items (Correct)
+They define the rules of order guide
+Answer :They define the questions to ask to end user while ordering catalog items
+
+Which setting allows the user to view knowledge articles without logging in?
+
+
+Options are :
+
+ESS Role (Correct)
+View All Setting
+Public Setting
+View all Role
+Answer :ESS Role
+
+Where is data stored?
+
+
+Options are :
+
+Workflows
+Tables (Correct)
+Lists
+Forms
+Answer :Tables
+ServiceNow - Certified System Administrator CSA - Exam Questions and Answers
+
+Where do you change the banner of the application?
+
+
+Options are :
+
+Order it from Service Catalog
+cmn_location
+Application Navigator
+System Properties and in CSS Properties (Correct)
+Answer :System Properties and in CSS Properties
+
+If the Default update set is marked complete:
+
+
+Options are :
+
+The changes are tracked in the user�s current update set.
+The system creates another update set named Default1 and uses it as the default update set. (Correct)
+The instance fails.
+The default update set cannot be marked completed.
+Answer :The system creates another update set named Default1 and uses it as the default update set.
+
+Which of the following is possible via an inbound action?
+
+
+Options are :
+
+Schedule a job
+Sends an email notification (Correct)
+Change main banner
+Modifying existing records
+Answer :Sends an email notification
+ServiceNow Certified System Administrator Practice Exam 2019 Set 6
+
+ACL is part of which security?
+
+
+Options are :
+
+Physical Security
+General Security
+Compliance Security
+Contextual Security (Correct)
+Answer :Contextual Security
+
+Which of the following gets automatically captured in an update set?
+
+
+Options are :
+
+Table, forms, data
+Table, schedules, forms
+Tables, forms, views (Correct)
+Tables, lists, data
+Answer :Tables, forms, views
+
+Which of the following modules are available to ITIL users by default?
+
+
+Options are :
+
+Incident, Problem, Change
+Self-Service, Knowledge, Change
+Time Cards, Reports, Knowledge
+Incident, Problem, Change, Service Catalog (Correct)
+Answer :Incident, Problem, Change, Service Catalog
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+What is a SSO?
+
+
+Options are :
+
+Single Sign-On (Correct)
+Sign Single-On
+Single Sign Online
+Sign-On Single
+Answer :Single Sign-On
+
+A new group has been created to access service catalog requests however the group members are not able to access it. What is the BEST practice that should be followed to make sure the group members are able to access the requests?
+
+
+Options are :
+
+Assign catalog role to the group and then add users to the group (Correct)
+Assign catalog role to individual users and then add them to the group
+Assign catalog role to individual users
+Assign catalog role to individual users and to the group
+Answer :Assign catalog role to the group and then add users to the group
+
+How do you edit/create a workflow?
+
+
+Options are :
+
+XML Editor
+Paint shop
+Vi-Editor
+Graphical Workflow editor (Correct)
+Answer :Graphical Workflow editor
+ServiceNow Certified System Administrator Practice Exam 2019 Set 9
+
+Which among the following is true regarding ACLs?
+
+
+Options are :
+
+If there rows and field ACLs, user has to satisfy either to have access to the field
+If there rows and field ACLs, user has to satisfy both to have access to the field (Correct)
+Answer :If there rows and field ACLs, user has to satisfy both to have access to the field
+
+What is a piece of JavaScript configured to run when a record is displayed, inserted, updated, deleted, or when a table is queried?
+
+
+Options are :
+
+Business Rule (Correct)
+UI Policy
+Notifications
+Access Controls Lists
+Answer :Business Rule
+
+
+
+Which module is used to add the items in service catalog?
+
+
+Options are :
+
+Service Catalog -> My Items
+Service Catalog -> Content Items
+Service Catalog -> Maintain Items (Correct)
+Service Catalog -> Order Guide
+Answer :Service Catalog -> Maintain Items
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 6
+
+What is a sys_id?
+
+
+Options are :
+
+A unique value that is used for reporting
+Unique identifier that is designed to every table record (Correct)
+Unique identifier to call server scripts
+Unique identifier used in routing data to data center
+Answer :Unique identifier that is designed to every table record
+
+What does BSM acronym stand for?
+
+
+Options are :
+
+Business Service Management (a BSM map displays CI's) (Correct)
+Allows the business to order multiple related items
+Relationship between the business and the stakeholders
+Business Standard Management
+Answer :Business Service Management (a BSM map displays CI's)
+
+Which of the following is the main area in all ServiceNow web pages?
+
+
+Options are :
+
+Banner
+Application navigator
+Content Frame (Correct)
+User Menu
+Answer :Content Frame
+ServiceNow Certified CIS CSM Test Exams (New York Release) Set 8
+
+Each record in a table corresponds to:
+
+
+Options are :
+
+Column
+Fields
+List
+Row (Correct)
+Answer :Row
+
+The base table of "Change" table is:
+
+
+Options are :
+
+Problem Table
+Task Table (Correct)
+Core Table
+Incident Table
+Answer :Task Table
+
+What defines and monitors the guarantees established with an outside supplier and is a tool for supplier management?
+
+
+Options are :
+
+Variables
+Underpinning contract (UC) (Correct)
+Catalog Item Designer
+systems, CI, caller
+Answer :Underpinning contract (UC)
+ServiceNow Certified System Administrator Practice Exam 2019 Set 7
+
+What displays the details of tables and their relationships?
+
+
+Options are :
+
+Base Class
+cmdb_ci
+BSM Icon
+Schema Map (Correct)
+Answer :Schema Map
+
+How are users related to roles or groups?
+
+
+Options are :
+
+Many to many relationships (Correct)
+1 to many relationships
+Many to 1 relationship
+1 to 1 relationship
+Answer :Many to many relationships
+
+If both client script and business rule are applied on a table, which one will get executed first?
+
+
+Options are :
+
+Outbound Rule
+Inbound Rule
+Business rule (Correct)
+Client Script
+Answer :Business rule
+ServiceNow Certified System Administrator Practice Exam 2019 Set 4
+
+The following filter has been created for all open incidents: �All>Active=True>State=In Progress>Priority=1-Critical �
+
+What will be displayed if we click on breadcrumb 'State=In Progress'?
+
+
+Options are :
+
+List of incidents which are active and the state is "In Progress" (Correct)
+List of Critical incidents which are active with state as "In Progress"
+List of incidents which are active
+List of all incidents
+Answer :List of incidents which are active and the state is "In Progress"
+
+What does RITM stand for?
+
+
+Options are :
+
+Request Item to Move
+Remote Infrastructure Technology Manager
+All of the above
+Request Item (Correct)
+Answer :Request Item
+
+After high security plugin is activated, a security_admin privilege is created. What is an elevated privilege?
+
+
+Options are :
+
+Used to enable the ITIL role to have an Admin type access
+Users with the Admin role
+Elevated privilege is used to promote extension tables
+A role that has special permissions for the duration of the log in session (Correct)
+Answer :A role that has special permissions for the duration of the log in session
+ServiceNow - Certified System Administrator CSA - Exam Questions
+
+Out of the below listed applications which will not run natively on smartphones?
+
+
+Options are :
+
+Workflow (Correct)
+Service Catalog
+Self-Service
+User administration
+Answer :Workflow
+
+Which one of the below sentences best describes the purpose of an Update Set?
+
+
+Options are :
+
+By default, the changes included in an Update Set are visible only in the instance to which they are applied.
+An update set allows the administrators to group a series of changes into a named set and then move the set as a unit to other systems.
+By default, an Update Set includes customizations, Business Rules and homepages.
+An Update Set is a group of customizations moved Production to Development. (Correct)
+Answer :An Update Set is a group of customizations moved Production to Development.
+
+What process does the Knowledge Base manage?
+
+
+Options are :
+
+Document review cycle, which includes submission, feedback from SME, and publishing (Correct)
+Weekly and monitoring operations reports done on archived and current data
+Ordering and billing cycle initiated when items are purchased using the service catalog
+System asset reassignment accomplished as the real-time tracking of hardware and software assets
+Answer :Document review cycle, which includes submission, feedback from SME, and publishing
+ServiceNow Certified System Administrator Practice Exam 2019 Set 2
+
+What are the components of a condition:
+
+
+Options are :
+
+Variable, Operator, Value
+Variable, Condition, Script
+Field, Operator, Value (Correct)
+Field, Condition, Script
+Answer :Field, Operator, Value
+
+The organization provides desktop with different memory capacity. Some users would require 4GB, 8GB or 16GB RAM machine. The users should be able to order these items in Service Catalog dashboard. Which of the following is a best practice to accomplish the task?
+
+
+Options are :
+
+Create a separate dashboard
+Create Catalog Category for different memory capacity
+Create Catalog Item for different memory capacity
+Create Catalog Item for desktop and then Catalog Variable for different memory capacity (Correct)
+Answer :Create Catalog Item for desktop and then Catalog Variable for different memory capacity
+
+In workflow, what is an activity?
+
+
+Options are :
+
+Waiting for Approval, Approved, Pending, Fulfilled, Completed
+creates Service Catalog records (an alternative to lists and forms)
+Defines unique key for record. If record found, import will update the record. If not found, import will create a new record.
+An automation block such as approvals, conditions, notifications, tasks, timers and utilities (Correct)
+Answer :An automation block such as approvals, conditions, notifications, tasks, timers and utilities
+ServiceNow Certified System Administrator Practice Exam 2019 Set 10
+
+Which module contains SLA, OLA and UC (Underpinning Contracts)?
+
+
+Options are :
+
+Service Catalog
+Content Management
+Asset Contract
+Service Level Management (Correct)
+Answer :Service Level Management
+
+Which role is required for creating ACL?
+
+
+Options are :
+
+approval_admin
+security_admin (Correct)
+itil_admin
+admin
+Answer :security_admin
+
+In the smart filter condition builder, what are the three elements of a filter?
+
+
+Options are :
+
+Field, Operator, Value (Correct)
+Social IT > Feed administration > Messages
+Application Service Response, network latency and browser rendering
+They are the same
+Answer :Field, Operator, Value
+ServiceNow Certified System Administrator Practice Exam 2019 Set 5
+
+What are the steps in SLA?
+
+
+Options are :
+
+Start, Hold, Stop, End
+Start, Pause, Stop (Correct)
+Start, Hold, Stop
+Start, Pause, Stop, End
+Answer :Start, Pause, Stop
+
+Where do you go to check application server and network responses?
+
+
+Options are :
+
+System Update Sets > Merge Update Sets
+System Diagnostics > Stats > Stats
+System Logs > Events
+System Logs (Correct)
+Answer :System Logs
+
