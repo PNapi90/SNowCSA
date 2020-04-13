@@ -12,11 +12,11 @@ class Question:
         self.QuestionCorrectlyAnswered = False
         self.is_question = True
         self.__CorrectSign = "(c)"
-        print("Question at",pos,"set")
+
     def set_question(self,Q):
         self.question = Q.rstrip()
         self.is_question = False
-        print("Question is",self.question)
+        
     def add_option(self,option):
         if self.is_question:
             self.set_question(option)
@@ -92,7 +92,7 @@ def runExam(file,QuestionArray):
         newQuestion = "NEW QUESTION" in line
         # trigger for end of question
         finished = "END" in line
-        print(line)
+
         if newQuestion:
             #add question
             created = True
@@ -121,7 +121,6 @@ def runExam(file,QuestionArray):
                     if check:
                         print("Answer",badPos+1,"not in valid range!\n")
                 else:
-                    input("")
                     print("No answer given. Please make a valid selection.\n")
             
             QuestionArray[pos].set_answer(posAnswer)
@@ -172,6 +171,7 @@ files = ["ExamsITSM/Udemy"+str(i+2)+".txt" for i in range(Nexam)]
 print(files)
 
 print("\n===================================")
+print("CIS ITSM\n---------")
 print("Which exam would you like to take?")
 for i,f in enumerate(files):
     print(i,"->",f)
