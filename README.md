@@ -30,4 +30,4 @@ NEW QUESTION
 END
 ```
 
-where `(c)` signifies the correct answer(s). The questions themselves are not part of the repository due to potential copyright issues.
+where `(c)` signifies the correct answer(s) can be read. The questions themselves are not part of the repository due to potential copyright issues.
