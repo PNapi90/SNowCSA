@@ -165,8 +165,8 @@ def printScore(points,total):
 
 
 
-Nexam = 1
-files = ["ExamsITSM/Udemy"+str(i+2)+".txt" for i in range(Nexam)]
+Nexam = 2
+files = ["ExamsITSM/Udemy"+str(i)+".txt" for i in range(Nexam)]
 
 print(files)
 
