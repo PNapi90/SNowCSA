@@ -165,7 +165,7 @@ def printScore(points,total):
 
 
 
-Nexam = 2
+Nexam = 4
 files = ["ExamsITSM/Udemy"+str(i)+".txt" for i in range(Nexam)]
 
 print(files)
@@ -178,6 +178,10 @@ for i,f in enumerate(files):
 
 number = input("exam # -> ")
 
+MADRID = int(number) == 2
+NY = int(number) == 3
+
+
 #check for empty input string and range
 while not number.strip() or int(number) >= len(files) or int(number) < 0:
     if not number.strip() or int(number) >= len(files) or int(number) < 0:
@@ -185,6 +189,11 @@ while not number.strip() or int(number) >= len(files) or int(number) < 0:
         number = input("exam # -> ")
 
 print("you choose",files[int(number)])
+
+if MADRID:
+    print("-> Madrid Delta Exam")
+if NY:
+    print("-> New York/Orlando Delta Exam")
 
 fileName = files[int(number)]
 
