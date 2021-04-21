@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Program to run chercher.tech Servicenow CSA mock exams in console
 
 #import numpy as np
